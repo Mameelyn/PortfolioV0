@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Noto Sans Lao Looped';
+  src: url('./Fonts/Noto_Sans_Lao_Looped/static/NotoSansLaoLooped-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:lang(la) {
+  font-family: 'Noto Sans Lao Looped', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
