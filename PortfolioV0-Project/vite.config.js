@@ -1,12 +1,10 @@
 import { fileURLToPath, URL } from 'node:url'
-im
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/PortfolioV0'
-  ,
+  base:'/PortfolioV0/',
   plugins: [
     vue(),
   ],
